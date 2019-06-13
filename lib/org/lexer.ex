@@ -59,7 +59,7 @@ defmodule Org.Lexer do
   @empty_line_re    ~r/^\s*$/
   @table_row_re     ~r/^\s*(?:\|[^|]*)+\|\s*$/
   @begin_props_re   ~r/^\s*\:PROPERTIES\:$/
-  @property_re      ~r/^\s*\:([A-Za-z]+)\:\s*(.+)$/
+  @property_re      ~r/^\s*\:([A-Za-z_]+)\:\s*(.+)$/
   @end_drawer_re    ~r/^\s*\:END\:$/
 
   defp lex_line(line, %Org.Lexer{mode: :normal} = lexer) do
