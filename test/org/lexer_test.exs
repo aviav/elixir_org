@@ -34,6 +34,7 @@ defmodule Org.LexerTest do
       {:property, "Artist", "Glenn Gould"},
       {:property, "Publisher", "Deutsche Grammophon"},
       {:property, "NDisks", "1"},
+      {:property, "ARCHIVE_TIME", "2018-08-14 Tue 16:39"},
       {:end_drawer},
       {:text, "3"},
       {:section_title, 4, "is nesting"},
