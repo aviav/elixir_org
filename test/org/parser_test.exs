@@ -39,6 +39,7 @@ defmodule Org.ParserTest do
         {:Artist, "Glenn Gould"},
         {:Publisher, "Deutsche Grammophon"},
         {:NDisks, "1"},
+        {:ARCHIVE_TIME, "2018-08-14 Tue 16:39"},
       ]
     end
   end

@@ -21,11 +21,12 @@ defmodule OrgTest do
   2
   *** thing
       :PROPERTIES:
-      :Title:     Goldberg Variations
-      :Composer:  J.S. Bach
-      :Artist:    Glenn Gould
-      :Publisher: Deutsche Grammophon
-      :NDisks:    1
+      :Title:         Goldberg Variations
+      :Composer:      J.S. Bach
+      :Artist:        Glenn Gould
+      :Publisher:     Deutsche Grammophon
+      :NDisks:        1
+      :ARCHIVE_TIME:  2018-08-14 Tue 16:39
       :END:
   3
   **** is nesting
